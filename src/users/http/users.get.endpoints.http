@@ -1,1 +1,1 @@
-GET http://localhost:3000/users/403/optionals
+GET http://localhost:3000/users/403/optionals?limit=10&offset=20
