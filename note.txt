@@ -2,3 +2,5 @@
 > Nest generate -h
 > --dry-run : just simulate the command and after simulating if we happy then…
 > nest generate module users       // create users module by cli
+> put method is used whenever you want to completely replace a resouce by something
+and patch is used whenever you want to only change a parts of resouce that already esits.
