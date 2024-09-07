@@ -1,9 +1,10 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Param, Post } from '@nestjs/common';
 
 @Controller('users')
 export class UsersController {
-  @Get()
-  public getUsers() {
+  @Get('/:id/:optional?')
+  public getUsers(@Param() params: any) {
+    console.log(params);
     return 'You sent a get request to users endpoints';
   }
 
