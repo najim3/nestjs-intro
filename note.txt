@@ -4,3 +4,5 @@
 > nest generate module users       // create users module by cli
 > put method is used whenever you want to completely replace a resouce by something
 and patch is used whenever you want to only change a parts of resouce that already esits.
+
+> nest generate controller users --no-spec --dry-run  // disable spec file generartion
