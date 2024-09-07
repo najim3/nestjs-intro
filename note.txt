@@ -6,3 +6,5 @@
 and patch is used whenever you want to only change a parts of resouce that already esits.
 
 > nest generate controller users --no-spec --dry-run  // disable spec file generartion
+> i would always suggest you use the entire params and then validate those params.
+>  
