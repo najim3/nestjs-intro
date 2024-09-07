@@ -1,0 +1,4 @@
+> Nest -h
+> Nest generate -h
+> --dry-run : just simulate the command and after simulating if we happy then…
+
