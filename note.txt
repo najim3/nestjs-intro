@@ -18,3 +18,6 @@ a bad request error, so it offers you a transformation as well as validation han
 > password: @Matches(/^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/)
 > we can add this kind of (message) a configuration object to any of these decorators, 
 and use a customized message.
+
+> class validator and class transformer package go hand in hand.
+> npm i class-transformer@0.5.1
