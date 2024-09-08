@@ -23,3 +23,5 @@ and use a customized message.
 > npm i class-transformer@0.5.1
 > whitelist: true    // block extra properties in post request
 > forbidNonWhitelisted: true  // give an error when use extra properties
+
+> A DTO can be used for params and queries as well.
