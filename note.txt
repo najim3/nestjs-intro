@@ -8,3 +8,7 @@ and patch is used whenever you want to only change a parts of resouce that alrea
 > nest generate controller users --no-spec --dry-run  // disable spec file generartion
 > i would always suggest you use the entire params and then validate those params.
 >  what is pipes
+> if the value is not convertible into an integer, or the client
+passes a type of a value, that is not possible to be converted into an integer, this throws
+a bad request error, so it offers you a transformation as well as validation hand in hand.
+> all the parse...pipe are used in required params and so cannot validate an optonal param.
