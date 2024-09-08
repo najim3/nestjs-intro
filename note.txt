@@ -12,3 +12,4 @@ and patch is used whenever you want to only change a parts of resouce that alrea
 passes a type of a value, that is not possible to be converted into an integer, this throws
 a bad request error, so it offers you a transformation as well as validation hand in hand.
 > all the parse...pipe are used in required params and so cannot validate an optonal param.
+> only ValidationPipe and DefaultValuePipe where you need to use the new keyword.
