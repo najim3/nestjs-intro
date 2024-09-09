@@ -37,3 +37,5 @@ and use a customized message.
 
 > we exports usersService from Users module but we import in posts module the entire module not that service.
 > this is inter-module Dependency Injection where post module depends on users module.
+> @api() tags decorators is added to the entire controller, so all the methods inside that particular controller
+would be added to a specific group on the swagger documentation.
