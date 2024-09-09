@@ -10,9 +10,11 @@ import {
   ParseIntPipe,
   DefaultValuePipe,
   ValidationPipe,
+  Patch,
 } from '@nestjs/common';
 import { CreateUserDto } from './dtos/create-user.dto';
 import { GetUsersParamDto } from './dtos/get-user-param.dto';
+import { PatchUserDto } from './dtos/patch-user.dto';
 
 @Controller('users')
 export class UsersController {
@@ -32,5 +34,10 @@ export class UsersController {
     console.log(createUserDto);
 
     return 'You sent a post request to users endpoints';
+  }
+
+  @Patch()
+  public patchUser(@Body() patchUserDto: PatchUserDto) {
+    return patchUserDto;
   }
 }

@@ -25,3 +25,5 @@ and use a customized message.
 > forbidNonWhitelisted: true  // give an error when use extra properties
 
 > A DTO can be used for params and queries as well.
+> npm i @nestjs/mapped-types@2.0.5
+> this mapped is not working now, i will try latter this.
