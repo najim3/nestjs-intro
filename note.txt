@@ -34,3 +34,6 @@ and use a customized message.
 >  nest generate module posts
 > nest generate controller posts --no-spec
 > nest generate service posts/providers/posts --flat --no-spec
+
+> we exports usersService from Users module but we import in posts module the entire module not that service.
+> this is inter-module Dependency Injection where post module depends on users module.
