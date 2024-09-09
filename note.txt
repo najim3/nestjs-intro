@@ -29,3 +29,5 @@ and use a customized message.
 > this mapped is not working now, i will try latter this.
 
 ## Dependency Injection ## 
+
+> controller only hold the routing logic. The rest of the business logic should reside inside your providers.
