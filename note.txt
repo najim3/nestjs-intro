@@ -27,3 +27,5 @@ and use a customized message.
 > A DTO can be used for params and queries as well.
 > npm i @nestjs/mapped-types@2.0.5
 > this mapped is not working now, i will try latter this.
+
+## Dependency Injection ## 
