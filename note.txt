@@ -31,3 +31,6 @@ and use a customized message.
 ## Dependency Injection ## 
 
 > controller only hold the routing logic. The rest of the business logic should reside inside your providers.
+>  nest generate module posts
+> nest generate controller posts --no-spec
+> nest generate service posts/providers/posts --flat --no-spec
